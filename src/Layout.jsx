@@ -1,5 +1,4 @@
 import Achivement from './components/Achivement';
-import Contact from './components/Contact';
 import Main from './components/Main';
 import Sidenav from './components/navbar';
 import Summary from './components/Summary';

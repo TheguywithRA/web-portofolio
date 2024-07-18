@@ -1,9 +1,4 @@
-import ProjectItem from './AchiveItem';
 import React from 'react';
-import beachesImg from '../assets/beaches.jpg';
-import bestEatsImg from '../assets/bestEats.jpg';
-import driveImg from '../assets/drive.jpg';
-import propertyImg from '../assets/property.jpg';
 
 const Summary = () => {
   return (
@@ -19,12 +14,6 @@ const Summary = () => {
         Keahlian saya meliputi pembuatan REST API, autentikasi dengan 
         Spring Security, dan pengujian dengan mocking.
       </p>
-      {/* <div className='grid sm:grid-cols-2 gap-12'>
-        <ProjectItem img={driveImg} title='Drive App' />
-        <ProjectItem img={propertyImg} title='Property App' />
-        <ProjectItem img={beachesImg} title='Beaches App' />
-        <ProjectItem img={bestEatsImg} title='BestEats App' />
-      </div> */}
     </div>
   );
 };
